@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class userCreator {
     static Scanner scanner =new Scanner(System.in);
-   public void createUser(){
+   public static void createUser(){
         startloop:
     do {
         System.out.println("are you creating \"Libarian\" or \"Customer\"");
@@ -13,7 +13,7 @@ public class userCreator {
             System.out.println("use only valid symbols");
         }
         switch (answer.toLowerCase()){
-            case"user": userCreate(true);
+            case"libarian": userCreate(true);
                 break startloop;
             case"customer": userCreate(false);
             break startloop;
@@ -24,15 +24,26 @@ public class userCreator {
 
     }while(true);
     }
-     void userCreate(boolean libarian){
+   private static void userCreate(boolean libarian){
+       if(libarian){
+       createLibarian();
+
+       }else{
+       createCustomer();
+
+       }
+
 
 
     }
 
-    private void createLibarian(){
+    private static void createLibarian(){
+    libarian libarian =new libarian();
+    libarian.ping();
 
     }
-    private void createCustomer(){
-
+    private static void createCustomer(){
+    customer customer =new customer();
+    customer.ping();
     }
 }
