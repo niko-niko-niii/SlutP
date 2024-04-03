@@ -1,12 +1,25 @@
 import java.util.ArrayList;
 
 public class user {
-private String name;
-private String password;
-private String ID;
-private ArrayList<String> borrowed = new ArrayList<>(); //borrowed books list
+protected String name;
+protected String password;
+protected String ID;
+protected ArrayList<String> borrowed = new ArrayList<>(); //borrowed books list
 
-public void ping(){
+    public String getName() {return name;}
+    public ArrayList<String> getBorrowed() {return borrowed;}
+    public String getID() {return ID;}
+
+    public void passwordTest(String password){
+        if (this.password.equals(password)){
+            menu();
+        }else System.out.println("wrong password");
+    }
+    protected void menu(){
+        System.out.println("welcome in "+name);
+    }
+
+    public void ping(){
     System.out.println("ping");
 }
 
