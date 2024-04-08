@@ -16,5 +16,12 @@ public class userList {
         }
 
     }
+    public static void librarianLoggin(String uName, String password){
+        for (librarian l: Librarian){
+            if (uName.equalsIgnoreCase(l.getName())){
+                l.passwordTest(password);
+            }
+        }
+    }
 
 }

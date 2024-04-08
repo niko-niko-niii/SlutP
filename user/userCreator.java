@@ -40,12 +40,12 @@ public class userCreator {
     private static void createLibrarian(String name, String password){
     librarian librarian =new librarian(name,password,"1");// creates librarian
     userList.Librarian.add(librarian); // adds librarian to a list
-    librarian.ping();
+
 
     }
     private static void createCustomer(String name, String password){
     customer customer =new customer(name,password,"1"); //creates a customer
     userList.Customer.add(customer); // adds customer to a list
-    customer.ping();
+
     }
 }

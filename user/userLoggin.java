@@ -23,6 +23,12 @@ public class userLoggin {
         System.out.println("all Librarians");
         userList.librarianList();
 
+        System.out.println("write your username:");
+        String uName= scanner.next();
+        System.out.println("write your password:");
+        String password=scanner.next();
+        userList.librarianLoggin(uName,password);
+
     }
 
     private static void customerLoggIn(){
@@ -33,7 +39,7 @@ public class userLoggin {
             String uName= scanner.next();
             System.out.println("write your password:");
             String password=scanner.next();
-                           userList.customerLoggin(uName,password);
+            userList.customerLoggin(uName,password);
 
 
 

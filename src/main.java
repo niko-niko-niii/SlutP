@@ -6,6 +6,8 @@ public class main {
         userList.Customer.add(customer);
         customer =new customer("v3","234","3");
         userList.Customer.add(customer);
+        librarian librarian =new librarian("vlad","123","1");
+        userList.Librarian.add(librarian);
 
         while(true) {
             userLoggin.loggIn();

@@ -15,12 +15,8 @@ protected ArrayList<String> borrowed = new ArrayList<>(); //borrowed books list
             menu();
         }else System.out.println("wrong password");
     }
-    protected void menu(){
+    protected void menu(){ //main menu
         System.out.println("welcome in "+name);
     }
-
-    public void ping(){
-    System.out.println("ping");
-}
 
 }
