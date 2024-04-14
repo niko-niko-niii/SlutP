@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b2451a1-2841-430f-933f-2399c82ceaea" name="Changes" comment="addded loggin, normal user list, minor improvments to user creator">
-      <change afterPath="$PROJECT_DIR$/book/book.java" afterDir="false" />
+    <list default="true" id="2b2451a1-2841-430f-933f-2399c82ceaea" name="Changes" comment="user funcs are all functional now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bibliotek.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bibliotek.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/librarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/userCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/userCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/userList.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/userList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/userLoggin.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/userLoggin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +91,7 @@
       <workItem from="1712174395983" duration="73000" />
       <workItem from="1712222717037" duration="3613000" />
       <workItem from="1712226883241" duration="694000" />
+      <workItem from="1712552977878" duration="654000" />
     </task>
     <task id="LOCAL−00001" summary="sdasd">
       <option name="closed" value="true" />
@@ -116,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712174459661</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="user funcs are all functional now">
+      <option name="closed" value="true" />
+      <created>1712553033765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712553033765</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +136,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sdasd" />
     <MESSAGE value="addded loggin, normal user list, minor improvments to user creator" />
-    <option name="LAST_COMMIT_MESSAGE" value="addded loggin, normal user list, minor improvments to user creator" />
+    <MESSAGE value="user funcs are all functional now" />
+    <option name="LAST_COMMIT_MESSAGE" value="user funcs are all functional now" />
   </component>
 </project>
