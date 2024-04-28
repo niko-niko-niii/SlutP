@@ -26,13 +26,14 @@ public class Book {
 
     //filhantering
 
-
+    File file;
+    String fName;
     //skapar och fyller i filen till boken
-    private void filehandler(String text) {
-        String fName=name+".txt";
-        File file= new File(this.name+".txt");
-        createFile(file, fName);
-        writeFile(text, file, fName);
+    void filehandler(String text) {
+        fName=name+".txt";
+        file= new File(this.name+".txt");
+        createFile(file,fName);
+        writeFile(text);
     }
 
     //får boktexten från användaren
@@ -58,7 +59,7 @@ public class Book {
 
     }
     //raderar bok fil
-    private void deleteFile(File file, String fName){
+    protected void deleteFile(){
         try {
             file.delete();
             System.out.println("file "+fName+" was deleted");
@@ -68,7 +69,7 @@ public class Book {
 
     }
     //skriver i filen till boken
-    private void writeFile(String text, File file, String fName)  {
+    private void writeFile(String text)  {
 
         try {
             FileWriter writer =new FileWriter(fName); //själva grejen som skriver i filen
@@ -87,7 +88,7 @@ public class Book {
     }
     //funktion läser av filen
     // fien läses av ochh kan ej ändras så det är ok om den e public
-    public void readFile(File file, String fName){
+    public void readFile(){
         try {
             Scanner readFile =new Scanner(file);
             System.out.println(readFile);

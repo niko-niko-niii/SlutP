@@ -11,8 +11,10 @@ public class main {
         Librarian librarian =new Librarian("vlad","123");
         UserList.addUser(librarian);
         Scanner scanner =new Scanner(System.in);
-
-
+        Book book =new Book("a",1,"j","horror");
+        BookList.addBook(book);
+        book.recieveBookText("funkar");
+        BookList.bookDelete("a");
 
 
 

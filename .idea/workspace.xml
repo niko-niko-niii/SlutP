@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b2451a1-2841-430f-933f-2399c82ceaea" name="Changes" comment="formaterade om user filer, de har nu mindre kod. användar Array har nu **Komposition**. samt andra mindre ändringar i koden.  &#10;Bokdelen av koden har börtat utvecklas. la till basic filhantering samt sätt att skapa böcker och lägga dem i array. (btw detta är en kommentar uppdate 100 000% mer komentarer än förrut ( ✧Д✧))">
+    <list default="true" id="2b2451a1-2841-430f-933f-2399c82ceaea" name="Changes" comment="fixa bugg med koden som skapade null filer med inget i den">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/BookCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/BookCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/BookList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +110,7 @@
       <workItem from="1712222717037" duration="3613000" />
       <workItem from="1712226883241" duration="694000" />
       <workItem from="1712552977878" duration="654000" />
-      <workItem from="1714303134031" duration="23437000" />
+      <workItem from="1714303134031" duration="28004000" />
     </task>
     <task id="LOCAL−00001" summary="sdasd">
       <option name="closed" value="true" />
@@ -151,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714336049696</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixa bugg med koden som skapade null filer med inget i den">
+      <option name="closed" value="true" />
+      <created>1714337232716</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714337232716</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +182,8 @@
     <MESSAGE value="user funcs are all functional now" />
     <MESSAGE value="added bookCreator class" />
     <MESSAGE value="formaterade om user filer, de har nu mindre kod. användar Array har nu **Komposition**. samt andra mindre ändringar i koden.  &#10;Bokdelen av koden har börtat utvecklas. la till basic filhantering samt sätt att skapa böcker och lägga dem i array. (btw detta är en kommentar uppdate 100 000% mer komentarer än förrut ( ✧Д✧))" />
-    <option name="LAST_COMMIT_MESSAGE" value="formaterade om user filer, de har nu mindre kod. användar Array har nu **Komposition**. samt andra mindre ändringar i koden.  &#10;Bokdelen av koden har börtat utvecklas. la till basic filhantering samt sätt att skapa böcker och lägga dem i array. (btw detta är en kommentar uppdate 100 000% mer komentarer än förrut ( ✧Д✧))" />
+    <MESSAGE value="fixa bugg med koden som skapade null filer med inget i den" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixa bugg med koden som skapade null filer med inget i den" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
