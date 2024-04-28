@@ -50,8 +50,7 @@ public class BookCreator {
     private void bCreator(String name, int releaseDate, String author, String genre){
         Scanner scanner =new Scanner(System.in);
         Book book=new Book(name,releaseDate,author,genre);
-        String text= scanner.nextLine();
-        book.recieveBookText(text);
+        book.recieveBookText("text");
     }
         
         

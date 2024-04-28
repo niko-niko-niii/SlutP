@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b2451a1-2841-430f-933f-2399c82ceaea" name="Changes" comment="added bookCreator class">
-      <change afterPath="$PROJECT_DIR$/user/UserLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-04-16_14_05_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-04-16_14_05__Changes_.xml" beforeDir="false" />
+    <list default="true" id="2b2451a1-2841-430f-933f-2399c82ceaea" name="Changes" comment="formaterade om user filer, de har nu mindre kod. användar Array har nu **Komposition**. samt andra mindre ändringar i koden.  &#10;Bokdelen av koden har börtat utvecklas. la till basic filhantering samt sätt att skapa böcker och lägga dem i array. (btw detta är en kommentar uppdate 100 000% mer komentarer än förrut ( ✧Д✧))">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/book.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/bookCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/BookCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/bookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/BookList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/BookCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/BookCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/Librarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/userCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/UserCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/userList.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/UserList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/userLoggin.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +110,7 @@
       <workItem from="1712222717037" duration="3613000" />
       <workItem from="1712226883241" duration="694000" />
       <workItem from="1712552977878" duration="654000" />
-      <workItem from="1714303134031" duration="22200000" />
+      <workItem from="1714303134031" duration="23437000" />
     </task>
     <task id="LOCAL−00001" summary="sdasd">
       <option name="closed" value="true" />
@@ -154,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713731698713</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="formaterade om user filer, de har nu mindre kod. användar Array har nu **Komposition**. samt andra mindre ändringar i koden.  &#10;Bokdelen av koden har börtat utvecklas. la till basic filhantering samt sätt att skapa böcker och lägga dem i array. (btw detta är en kommentar uppdate 100 000% mer komentarer än förrut ( ✧Д✧))">
+      <option name="closed" value="true" />
+      <created>1714336049696</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714336049696</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +173,8 @@
     <MESSAGE value="addded loggin, normal user list, minor improvments to user creator" />
     <MESSAGE value="user funcs are all functional now" />
     <MESSAGE value="added bookCreator class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added bookCreator class" />
+    <MESSAGE value="formaterade om user filer, de har nu mindre kod. användar Array har nu **Komposition**. samt andra mindre ändringar i koden.  &#10;Bokdelen av koden har börtat utvecklas. la till basic filhantering samt sätt att skapa böcker och lägga dem i array. (btw detta är en kommentar uppdate 100 000% mer komentarer än förrut ( ✧Д✧))" />
+    <option name="LAST_COMMIT_MESSAGE" value="formaterade om user filer, de har nu mindre kod. användar Array har nu **Komposition**. samt andra mindre ändringar i koden.  &#10;Bokdelen av koden har börtat utvecklas. la till basic filhantering samt sätt att skapa böcker och lägga dem i array. (btw detta är en kommentar uppdate 100 000% mer komentarer än förrut ( ✧Д✧))" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

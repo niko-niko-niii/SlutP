@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class main {
     public static void main(String[] args) {
         Customer customer =new Customer("vlad","123");
@@ -8,7 +10,10 @@ public class main {
         UserList.addUser(customer);
         Librarian librarian =new Librarian("vlad","123");
         UserList.addUser(librarian);
-        new Book("a",100,"b","sci fi").filehandler();
+        Scanner scanner =new Scanner(System.in);
+
+
+
 
 
     }

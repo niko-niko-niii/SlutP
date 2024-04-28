@@ -15,6 +15,7 @@ public class Book {
         this.releaseDate=releaseDate;
         this.author=author;
         this.genre=genre;
+
     }
     //getters
     public String getName() {return name;}
@@ -24,19 +25,22 @@ public class Book {
 
 
     //filhantering
-    String fName=name+".txt";
-    File file= new File(fName);
+
+
     //skapar och fyller i filen till boken
     private void filehandler(String text) {
-        createFile();
-        writeFile();
+        String fName=name+".txt";
+        File file= new File(this.name+".txt");
+        createFile(file, fName);
+        writeFile(text, file, fName);
     }
-    //får in boktexten
+
+    //får boktexten från användaren
     public void recieveBookText(String text){
     filehandler(text);
     }
     //skapar filen till boken
-    private  void createFile(){
+    private  void createFile(File file, String fName){
 
         // error handler ifall något går fel
         try {
@@ -54,7 +58,7 @@ public class Book {
 
     }
     //raderar bok fil
-    private void deleteFile(){
+    private void deleteFile(File file, String fName){
         try {
             file.delete();
             System.out.println("file "+fName+" was deleted");
@@ -64,12 +68,14 @@ public class Book {
 
     }
     //skriver i filen till boken
-    private void writeFile()  {
+    private void writeFile(String text, File file, String fName)  {
 
         try {
             FileWriter writer =new FileWriter(fName); //själva grejen som skriver i filen
             // filen går ej att redigera för att jag orkar inte
             // inte för att jag inte kan
+            writer.write(text);
+            writer.close();
 
         }catch(IOException e){
             System.out.println(fName+" could not be edited");
@@ -81,7 +87,7 @@ public class Book {
     }
     //funktion läser av filen
     // fien läses av ochh kan ej ändras så det är ok om den e public
-    public void readFile(){
+    public void readFile(File file, String fName){
         try {
             Scanner readFile =new Scanner(file);
             System.out.println(readFile);
