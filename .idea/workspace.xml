@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b2451a1-2841-430f-933f-2399c82ceaea" name="Changes" comment="user funcs are all functional now">
+    <list default="true" id="2b2451a1-2841-430f-933f-2399c82ceaea" name="Changes" comment="added bookCreator class">
+      <change afterPath="$PROJECT_DIR$/user/UserLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-04-16_14_05_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-04-16_14_05__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/bookCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/bookCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/book.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/bookCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/BookCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/bookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/BookList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/Librarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/userCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/UserCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/userList.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/UserList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/userLoggin.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +36,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;niko-niko-niii&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1abef3e2-668f-46ba-a70f-52d1697b4a45" />
+        <option name="url" value="https://github.com/niko-niko-niii/SlutP.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -35,28 +61,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -94,6 +121,7 @@
       <workItem from="1712222717037" duration="3613000" />
       <workItem from="1712226883241" duration="694000" />
       <workItem from="1712552977878" duration="654000" />
+      <workItem from="1714303134031" duration="22200000" />
     </task>
     <task id="LOCAL−00001" summary="sdasd">
       <option name="closed" value="true" />
@@ -118,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712553033765</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added bookCreator class">
+      <option name="closed" value="true" />
+      <created>1713731698713</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713731698713</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +175,15 @@
     <MESSAGE value="sdasd" />
     <MESSAGE value="addded loggin, normal user list, minor improvments to user creator" />
     <MESSAGE value="user funcs are all functional now" />
-    <option name="LAST_COMMIT_MESSAGE" value="user funcs are all functional now" />
+    <MESSAGE value="added bookCreator class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added bookCreator class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

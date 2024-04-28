@@ -1,17 +1,15 @@
 public class main {
     public static void main(String[] args) {
-        customer customer =new customer("vlad","123","1"); //creates a customer
-        userList.Customer.add(customer);
-        customer =new customer("v1","321","2");
-        userList.Customer.add(customer);
-        customer =new customer("v3","234","3");
-        userList.Customer.add(customer);
-        librarian librarian =new librarian("vlad","123","1");
-        userList.Librarian.add(librarian);
+        Customer customer =new Customer("vlad","123");
+        UserList.addUser(customer);
+        customer =new Customer("v1","321");
+        UserList.addUser(customer);
+        customer =new Customer("v3","234");
+        UserList.addUser(customer);
+        Librarian librarian =new Librarian("vlad","123");
+        UserList.addUser(librarian);
+        new Book("a",100,"b","sci fi").filehandler();
 
-        while(true) {
-            userLoggin.loggIn();
-        }
 
     }
 }
