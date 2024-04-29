@@ -9,8 +9,7 @@ public class UserList {
         for (User u : users) {
             //kollar om rollen "user" har
             //om den är korekt fortsätter koden in annars
-            System.out.println(u.getName());
-            System.out.println(u.getROLE());
+
             if (u.getROLE().equalsIgnoreCase(String.valueOf(R))) {
 
                 if (uName.equalsIgnoreCase(u.getName())) {

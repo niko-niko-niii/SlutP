@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.Scanner;
 
 public class Book {
@@ -91,7 +92,9 @@ public class Book {
     public void readFile(){
         try {
             Scanner readFile =new Scanner(file);
-            System.out.println(readFile);
+           while(readFile.hasNextLine()){
+               System.out.println(readFile.nextLine());
+           }
         }catch(Exception e){
             System.out.println("could not read from file "+ fName);
         }

@@ -11,12 +11,18 @@ public class main {
         Librarian librarian =new Librarian("vlad","123");
         UserList.addUser(librarian);
         Scanner scanner =new Scanner(System.in);
-        Book book =new Book("a",1,"j","horror");
+        Book book =new Book("a",5,"j","horror");
         BookList.addBook(book);
         book.recieveBookText("funkar");
-        BookList.bookDelete("a");
 
+        book =new Book("b",0,"f","horror");
+        BookList.addBook(book);
+        book.recieveBookText("funkar");
 
+        book =new Book("c",3,"d","horror");
+        BookList.addBook(book);
+        book.recieveBookText("funkar");
 
+        new UserLogin().loggIn();
     }
 }
