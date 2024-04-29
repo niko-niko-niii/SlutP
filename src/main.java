@@ -2,27 +2,23 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-        Customer customer =new Customer("vlad","123");
-        UserList.addUser(customer);
-        customer =new Customer("v1","321");
-        UserList.addUser(customer);
-        customer =new Customer("v3","234");
-        UserList.addUser(customer);
-        Librarian librarian =new Librarian("vlad","123");
-        UserList.addUser(librarian);
         Scanner scanner =new Scanner(System.in);
-        Book book =new Book("a",5,"j","horror");
-        BookList.addBook(book);
-        book.recieveBookText("funkar");
+       while (true){
+           System.out.println("what do you want to do:");
+           System.out.println("register \n log in \n exit");
+           String input=scanner.nextLine();
+           loop:
+           switch (input.toLowerCase() ){
+               case"register":new UserCreator().createUser();
+               break;
+               case"log in": new UserLogin().loggIn();
+               break;
+               case"exit": break loop;
+               default :
+                   System.out.println("check your spelling");
 
-        book =new Book("b",0,"f","horror");
-        BookList.addBook(book);
-        book.recieveBookText("funkar");
+           }
 
-        book =new Book("c",3,"d","horror");
-        BookList.addBook(book);
-        book.recieveBookText("funkar");
-
-        new UserLogin().loggIn();
+       }
     }
 }
